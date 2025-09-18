@@ -182,8 +182,28 @@
 .text-sm{
     font-size: 14px;
 }
+.text-lg{
+    font-size: 20px;
+}
+@media (max-width: 767px){
+    .text-md-md{
+    font-size: 16px;
+}    
+}
+.text-white{
+    color:var(--neutral-0)
+}
+.text-primary-300{
+    color: var(--primary-300);
+}
 .text-primary-400{
     color: var(--primary-400);
+}
+.text-primary-500{
+    color: var(--primary-500);
+}
+.text-primary-600{
+    color: var(--primary-600);
 }
 .text-danger{
     color: var(--danger-300);
@@ -243,6 +263,10 @@
 .pe-8{
     padding-right: 8px;
 }
+.px-24{
+    padding-right: 24px;
+    padding-left: 24px;
+}
 @media(max-width: 767px){
     .p-md-24{
         padding: 24px;
@@ -250,6 +274,10 @@
     .py-md-16{
         padding-top: 16px;
         padding-bottom: 16px;
+    }
+    .py-md-24{
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
     .py-md-32{
         padding-top: 32px;
@@ -362,6 +390,11 @@
     .mb-sm-8{
         margin-bottom: 8px;
     }
+}
+.display2{
+    font-style: 48px;
+    line-height: 1.2;
+    font-weight: 700;
 }
 .h1{
     font-family: "Mina", sans-serif;
