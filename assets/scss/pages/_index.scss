@@ -1,3 +1,210 @@
-.index-title {
-  font-size: 100px;
+.product{
+  position: relative;
+  .product-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 12px;
+    background-color: var(--primary-100);
+    font-style: 14px;
+    color: var(--primary-400);
+  }
+}
+@media(max-width:767px){
+  .product-md-row{
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+  .product-md-col{
+    min-width: 316px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+.header-index{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 289px 200px;
+    text-align: left;
+}
+.banner{
+  text-align: center;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+  position: relative;
+}
+.star-img{
+    position: absolute;
+    width: 48px;
+    top: 48px;
+    left: calc(50% - 397px);
+}
+.sparkle-img{
+    position: absolute;
+    width: 76px;
+    bottom: 132px;
+    right: calc(50% - 357px);
+  }
+
+.display-01{
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 5%;
+}
+.display-02{
+  font-family: "Noto Sans TC";
+  font-style: 100px;
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 700;
+  font-style: Bold;
+  letter-spacing: 5%;
+}
+.title-index{
+    font-family: "Noto Sans TC", sans-serif;
+    font-style: Bold;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+@media(max-width:767px){
+  .banner{
+    padding: 64px 0;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+    overflow: hidden;
+  }
+  .header-index{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+    padding: 155px 24px;
+    background-size: cover;
+  }
+  .btn{
+    padding: 12px 24px;
+  }
+  .star-img{
+    top: 32px;
+    left: -20px;
+  }
+  .sparkle-img{
+    bottom: 104px;
+    right: -28px;
+  }
+}
+@media (max-width: 767px){
+  .h3-md{
+    font-size: 28px;
+  }
+  .display-02{
+    font-family: "Noto Sans TC";
+    font-style: 100px;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 5%;
+  }
+  .h5-md{
+        font-size: 20px;
+    }
+}
+.category{
+  position: relative;
+ .category-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(black,0.4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+}
+@media (max-width: 1080px){
+  .h5-lg{
+    font-size: 18px;
+  }
+}
+.inspiration{
+  &-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -4px;
+  }
+  &-col-4{
+    width: calc(100% / 12 * 4);
+    padding: 4px;
+  }
+  &-col-6{
+    width: calc(100% / 12 * 6);
+    padding: 4px;
+  }
+  &-col-12{
+    width: calc(100%);
+    padding: 4px;
+  }
+}
+
+
+@media (max-width: 767px){
+  .inspiration-row{
+    flex-wrap: nowrap;
+    margin: 0 -8px;
+    img{
+      min-width: 300px;
+    }
+  }
+  .inspiration-col-4,
+  .inspiration-col-6,
+  .inspiration-col-12{
+    width: unset;
+    padding: 0 8px;
+  }
+}
+.title-index{
+    font-family: "Noto Sans TC", sans-serif;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.title-btn-1{
+  background-color: var(--primary-200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 60.15px;
+  padding-right: 60.15px;
+  text-align: center;
+}
+.title-btn-2{
+  background-color: var(--primary-100);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 60.15px;
+  padding-right: 60.15px;
+  text-align: center;
+}
+.title-head{
+  text-align: center;
+}
+.new-content{
+  text-align: left;
+}
+.new-product{
+  text-align: left;
+}
+@media (max-width: 767px){
+    .h2-md{
+        font-size: 32px;
+    }
 }
