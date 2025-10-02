@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main class="container">
+      <div class="row py-64 py-md-0 d-flex flex-md-column">
+        <div class="col-5 col-md-4">
+          <div class="banner-sm">
+            <h1 class="login-header display-2 h2-md">URBNSTEP</h1>
+            <p class="h4 h6-md text-neutral-500 login-p">Your Step, Your Statement</p>
+          </div> 
+        </div>
+        <div class="col-7 col-md-4">
+          <div class="right-box">
+            <h2 class="h3 h4-md text-center mb-32 mb-md-24">歡迎！</h2>
+            <div class="d-flex mb-32 mb-md-24">
+              <a href="login.html" class="h6 text-neutral-600 login-register">登入</a>
+              <a href="register.html" class="h6 text-neutral-900 login-lined">註冊</a>
+            </div>
+            <div class="login-logo mb-8">
+              <div class="d-flex p-12">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2bf9ce835c6465f064ead0300f32c1e27f630580/2025-week3-4/facebook.svg" alt="fb-logo" class="me-12">
+                <p class="md text-neutral-900 py-8">Facebook 註冊</p>
+              </div>
+            </div>
+            <div class="login-logo mb-8">
+              <div class="d-flex p-12">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2bf9ce835c6465f064ead0300f32c1e27f630580/2025-week3-4/apple.svg" alt="apple" class="me-12">
+                <p class="md text-neutral-900 py-8">Apple 註冊</p>
+              </div>
+            </div>
+            <div class="login-logo">
+              <div class="d-flex p-12">
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2bf9ce835c6465f064ead0300f32c1e27f630580/2025-week3-4/google.svg" alt="google-logo" class="me-12">
+                <p class="md text-neutral-900 py-8">Google 註冊</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

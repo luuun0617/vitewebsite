@@ -1,0 +1,76 @@
+.banner-sm{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    height: 589px;
+}
+@media (max-width: 767px){
+   .banner-sm{
+    border-radius: 0%;
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 240px;
+   } 
+}
+.login-header{
+    color: var(--neutral-0);
+    padding-top: 71px;
+    padding-left: 40px;
+}
+@media (max-width: 767px){
+   .login-header{
+    color: var(--neutral-0);
+    padding-top: 24px;
+    padding-left: 24px;
+} 
+}
+.login-p{
+    padding-top: 15px;
+    padding-left: 125px;
+}
+@media (max-width: 767px){
+    .login-p{
+    padding-top: 9px;
+    padding-left: 24px;
+}
+}
+.right-box{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true);
+    padding: 120px 80px;
+    border-radius: 12px;
+}
+@media (max-width: 767px){
+    .right-box{
+    padding: 32px 12px;
+    border-radius: 0px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+}
+
+
+.pt-120{
+    padding-top: 120px;
+}
+.login-lined{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(33, 37, 41, 1);
+}
+.login-register{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(222, 226, 230, 1);
+}
+.login-logo{
+    background-color: var(--neutral-0);
+    border: 1px solid rgba(222, 226, 230, 1);
+    border-radius: 8px;
+}
+.fb-p{
+    align-items: center;
+}

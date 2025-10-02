@@ -1,3 +1,50 @@
-.header-collect .bi{
-    color: var(--primary-300);
+.check-mark{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-300);
+    position: relative;
+    .bi{
+        color: var(--primary-500);
+        position: absolute;
+        font-size: 24px;
+        padding-left: 6.5px;
+    }
+}
+
+.time{
+    background-color: var(--primary-100);
+    padding: 16px;
+    text-align: center;
+    align-items: center;
+    .bi{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 767px){
+    .check-mark{
+    width: 32px;
+    height: 32px;
+    }
+    .check-mark .bi{
+        font-size: 20px;
+    }
+    .ta-md-left{
+        text-align: left;
+    }
+}
+.detail-img{
+    width: 120px;
+    height: 120px;
+}
+.like-detail{
+    position: relative;
+}
+.like-detail-p{
+    position: absolute;
+    right: 0;
+}
+.w-100{
+    width: 100%;
 }
